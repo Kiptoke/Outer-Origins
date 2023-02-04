@@ -1,13 +1,14 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/PlayerSpawner.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Mineral.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Graphics/dirt.png" type="Texture" id=3]
+[ext_resource path="res://Graphics/sky.png" type="Texture" id=4]
+[ext_resource path="res://Graphics/lava.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Level.gd" type="Script" id=6]
 
-[node name="Node2D" type="Node2D"]
-
-[node name="Player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 511, 317 )
-speed = 2
+[node name="Level" type="Node2D"]
+script = ExtResource( 6 )
 
 [node name="Node" type="Node" parent="."]
 
@@ -22,3 +23,30 @@ position = Vector2( 827, 159 )
 
 [node name="Mineral4" parent="Node" instance=ExtResource( 2 )]
 position = Vector2( 818, 456 )
+
+[node name="Ground" type="Sprite" parent="."]
+position = Vector2( 511.98, 5003.5 )
+scale = Vector2( 0.888924, 13.8986 )
+z_index = -5
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Lava" type="Sprite" parent="."]
+position = Vector2( 576, 10367 )
+texture = ExtResource( 5 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Sky" type="Sprite" parent="."]
+position = Vector2( 512, -360 )
+scale = Vector2( 0.888889, 1 )
+texture = ExtResource( 4 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="PlayerSpawner" parent="." instance=ExtResource( 1 )]
+position = Vector2( 512, -100 )
