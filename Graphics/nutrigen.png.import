@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dirt.png-9a5c85417599e84468bdd5c434318e99.stex"
+path="res://.import/nutrigen.png-cd0b92a7f06217a9e68676c54b2c33e3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Graphics/dirt.png"
-dest_files=[ "res://.import/dirt.png-9a5c85417599e84468bdd5c434318e99.stex" ]
+source_file="res://Graphics/nutrigen.png"
+dest_files=[ "res://.import/nutrigen.png-cd0b92a7f06217a9e68676c54b2c33e3.stex" ]
 
 [params]
 

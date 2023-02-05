@@ -51,6 +51,8 @@ func tipCrash(collider:String):
 		print("Surfaced!")
 	elif collider == "laval":
 		print("Dug too deep!")
+	elif collider == "rock":
+		print("ROCK")
 	emit_signal("crash")
 	var sp = spawner.instance()
 	var level = get_parent()

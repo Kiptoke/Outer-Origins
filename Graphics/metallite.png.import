@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/dirt.png-9a5c85417599e84468bdd5c434318e99.stex"
+path="res://.import/metallite.png-4e5fee69af0e7c7f0a8cd50518ece8da.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Graphics/dirt.png"
-dest_files=[ "res://.import/dirt.png-9a5c85417599e84468bdd5c434318e99.stex" ]
+source_file="res://Graphics/metallite.png"
+dest_files=[ "res://.import/metallite.png-4e5fee69af0e7c7f0a8cd50518ece8da.stex" ]
 
 [params]
 
